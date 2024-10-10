@@ -1,0 +1,11 @@
+@mixin btn-dark {
+    background-color: $dark;
+    color: $light;
+    border-radius: 60px;
+    transition: 0.5s;
+    cursor: pointer;
+    &:hover {
+        background-color: $light;
+        color: $dark;
+    }
+}

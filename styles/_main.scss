@@ -1,0 +1,39 @@
+.header {
+    background-image: url('../img/hero_img.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.header__hero {
+    padding-top: 196px;
+    max-width: 769px;
+    height: 710px;
+    padding-left: 120px;
+
+.hero {
+    
+    &__title {
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 78px;
+        padding-bottom: 24px;
+        }
+
+    &__desc {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        padding-bottom: 48px;
+            &-selection {
+                font-weight: 600;
+            }
+        }
+    &__button {
+        font-size: 24px;
+        font-weight: 600;
+        width: 247px;
+        height: 66px;
+        @include btn-dark;
+    }
+}
+}

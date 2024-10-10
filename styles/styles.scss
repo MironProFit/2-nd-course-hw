@@ -1,0 +1,20 @@
+@import 'font';
+@import 'mixin';
+@import 'variables';
+@import 'header_variables';
+@import 'button_variables';
+@import 'main';
+
+body {
+    font-family: $font;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+
+.center {
+    padding-right: calc(50% - 600px);
+    padding-left: calc(50% - 600px);
+}
+}
+
