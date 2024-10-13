@@ -124,6 +124,10 @@
   grid-column: span 4;
   background-color: #fff;
   border-radius: 30px;
+  transition: 0.5s;
+}
+.games-info .games-list .games-item:hover {
+  transform: scale(1.1);
 }
 .games-info .games-list .games-item__img {
   border-radius: 30px;
@@ -250,11 +254,19 @@
   text-align: center;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+body a {
+  text-decoration: none;
+  color: #202027;
 }
 body .center {
   padding-right: calc(50% - 600px);

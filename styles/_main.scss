@@ -82,6 +82,8 @@
                 grid-column: span 4;
                 background-color: $light;
                 border-radius: 30px;
+                 @include anim-scale;
+
                 &__img {
                     border-radius: 30px;
                     border-radius: 30px;
@@ -143,6 +145,7 @@
             height: 500px;
             background-color: $light;
             border-radius: 30px;
+            
            
             .catalog-item { 
                 padding-left: 48px;

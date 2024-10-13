@@ -5,11 +5,20 @@
 @import 'button_variables';
 @import 'main';
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     font-family: $font;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    a {
+        text-decoration: none;
+        color: $dark;
+    }
     
 
 .center {
