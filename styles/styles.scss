@@ -1,9 +1,10 @@
 @import 'font';
 @import 'mixin';
 @import 'variables';
-@import 'header_variables';
 @import 'button_variables';
 @import 'main';
+@import 'mobile';
+@import 'tablet';
 
 html {
     scroll-behavior: smooth;
